@@ -1,0 +1,58 @@
+############################################################
+
+__    _  _______  __   __  _______        ___  _______ 
+|  |  | ||       ||  |_|  ||       |      |   ||       |
+|   |_| ||    ___||       ||_     _|      |   ||  _____|
+|       ||   |___ |       |  |   |        |   || |_____ 
+|  _    ||    ___| |     |   |   |     ___|   ||_____  |
+| | |   ||   |___ |   _   |  |   |    |       | _____| |
+|_|  |__||_______||__| |__|  |___|    |_______||_______|
+
+###########################################################
+
+Learning Completion : Today, 11th December 2021
+
++---------------+
+|  Introduction | 
++---------------+
+Next is a react framework that is much robost to use. Now our goal is to implement 
+next static incremental regeneration which is very much achievable with regular javascript 
+but with much complicated and hard coding. With Next we could achieve this easily. 
+
+We are also checking out options to run this project in S3 Bucket
+
++------------------------------------------+
+|  Project Setup and Directory Structure.  | 
++------------------------------------------+
+
+Project Setup and Directory Structure. 
+
+Like react app , next has its code in the public folder but the rendering is all happening 
+in the pages folder. The pages folder, similar to react app has a _app.js where the application entry 
+point is found. 
+
+Where next becomes different is the addition of CSS and Bootstrap. 
+
++------------------------------------------+
+|  Starting the local developement project | 
++------------------------------------------+
+
+enter the command : npm run dev
+
+which will render the react app. Now changes in the index.html will reflect in the front end
+
++-----------------------------+
+|  Routing and Handling Pages | 
++-----------------------------+
+
+Now pages are like component. But the cool thing is you dont need to create / add router to react with next
+Next will automatically add it to your project 
+
+When the project name is index.js it doesnt create a route /index instead, it would be / 
+
+creating a about.js file in the pages folder will automatically create a route for about page. You could access it via 
+https://localhost:3000/about
+
++------------------------------------+
+|  Creating and Composing components | 
++------------------------------------+
